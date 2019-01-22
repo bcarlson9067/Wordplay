@@ -12,6 +12,7 @@
 		89B3D33921B59950001D5D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B3D33721B59950001D5D03 /* Main.storyboard */; };
 		89B3D33B21B59955001D5D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B3D33A21B59955001D5D03 /* Assets.xcassets */; };
 		89B3D33E21B59955001D5D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B3D33C21B59955001D5D03 /* LaunchScreen.storyboard */; };
+		89B3D34621B59A7F001D5D03 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3D34521B59A7F001D5D03 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89B3D33A21B59955001D5D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B3D33D21B59955001D5D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B3D33F21B59955001D5D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B3D34521B59A7F001D5D03 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				89B3D33321B59950001D5D03 /* AppDelegate.swift */,
 				89B3D33521B59950001D5D03 /* ViewController.swift */,
 				89B3D33721B59950001D5D03 /* Main.storyboard */,
+				89B3D34521B59A7F001D5D03 /* AnswerViewController.swift */,
 				89B3D33A21B59955001D5D03 /* Assets.xcassets */,
 				89B3D33C21B59955001D5D03 /* LaunchScreen.storyboard */,
 				89B3D33F21B59955001D5D03 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B3D34621B59A7F001D5D03 /* AnswerViewController.swift in Sources */,
 				89B3D33621B59950001D5D03 /* ViewController.swift in Sources */,
 				89B3D33421B59950001D5D03 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB6F96R42D;
 				INFOPLIST_FILE = Wordplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB6F96R42D;
 				INFOPLIST_FILE = Wordplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
